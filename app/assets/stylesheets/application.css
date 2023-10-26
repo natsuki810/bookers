@@ -13,3 +13,54 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 33px;
+}
+
+.books-index {
+  margin: 33px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-family: verdana;
+}
+
+.table {
+  display: flex;
+}
+
+.th {
+  font-family: arial;
+  justify-content: center;
+}
+
+h4 {
+  font-family: arial;
+}
+
+.books-index-title .books-index-body {
+  margin-bottom: 10px;
+}
+
+td {
+ padding-bottom: 7px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+label {
+  display: block;
+}
+
+p {
+  margin: 30px;
+}
